@@ -2,29 +2,37 @@
 
 let age = prompt("Enter your age");
 age = parseInt(age);
-if (age >= 18) alert("You are an adult");
+if (age >= 18)
+ alert("You are an adult");
 //console.log("You are an adult");
-else alert("You are minor");
+else 
+ alert("You are minor");
 //console.log("You are minor");
 
 //Login program
 
 let username = prompt("Enter your username");
 let password = prompt("Enter your password");
-if (username === "admin" && password === "password") alert("Login successful");
-else alert("Login failed");
+if (username === "admin" && password === "password")
+ alert("Login successful");
+else
+ alert("Login failed");
 
 //Odd or Even
 
 let randomNumber = Math.floor(Math.random() * 100) + 1;
-if (randomNumber % 2 === 0) alert("The number is Even");
-else alert("The number is Odd");
+if (randomNumber % 2 === 0) 
+ alert("The number is Even");
+else 
+ alert("The number is Odd");
 
 //Choice Program
 
 let color = prompt("Enter your favourite color");
-if (color === "red") alert("Red is a beautiful color");
-else alert("I like your choice of color");
+if (color === "red") 
+ alert("Red is a beautiful color");
+else 
+ alert("I like your choice of color");
 
 //Grade program
 
