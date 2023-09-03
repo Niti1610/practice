@@ -49,15 +49,15 @@ let averageGrade = (
   parseInt(languageGrade)
 ) / 5;
 let gradeLetter;
-  if (averageGrade >= 90) {
+  if (averageGrade >= 90) 
     gradeLetter = "A";
-  } else if (averageGrade >= 80) {
+   else if (averageGrade >= 80) 
     gradeLetter = "B";
-  } else if (averageGrade >= 70) {
+   else if (averageGrade >= 70) 
     gradeLetter = "C";
-  } else if (averageGrade >= 60) {
+   else if (averageGrade >= 60) 
     gradeLetter = "D";
-  } else {
+   else 
     gradeLetter = "F";
-  }
+  
   alert(`Your average grade is ${gradeLetter}.`);
